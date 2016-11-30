@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJ
+    \ RAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,14 +16,35 @@
         <h1>Form Basics</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
-
+            <h3>Technology Survey</h3>
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
-
+            <input type="text" name="name" placeholder= "John Doe" required><br> 
+            E-mail: 
+            <input type="email" name="email" placeholder= "johndoe@myemail.com" required><br>
             <!--add your own inputs below-->
+            <hr>
+            <h3> Here are some questions...</h3><hr>
+            
+            How comfortable are you with using technology?:<br>
+            <input type= "radio" name="comfort" value = "Comfortable"> Comfortable<br>
+            <input type= "radio" name="comfort" value = "Inbetween"> Inbetween<br>
+            <input type= "radio" name="comfort" value = "Notcomfortable"> Not comfortable at all<br><hr>
+            Name a electronic device you are familiar with:
+            <input type="text" name="device" placeholder="Ex: Playstation 2"><hr>
+            List off anything you have ever had the chance to use:<br>
+            <input type="checkbox" name="device-1" value = "computer"> Computer<br>
+            <input type="checkbox" name="device-2" value = "smartphone"> Smartphone<br>
+            <input type="checkbox" name="device-3" value = "tablet"> Tablet<br>
+            <input type="checkbox" name="device-4" value = "vrheadset"> VR Headset<br><hr>
+            How was this survey?:
+            <select name = "rating"> 
+            <option value = "interesting" selected> Interesting</option>
+            <option value = "mediocore" selected> Mediocore</option>
+            <option value = "horrible" selected> Horrible</option>
+            </select>
+            <hr>
 
-
+            
 
 
 
